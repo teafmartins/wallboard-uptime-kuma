@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 44" role="img" aria-label="Kuma Wallboard example logo">
+  <rect x="1" y="1" width="42" height="42" rx="10" fill="#111824" stroke="#6ba8ff" stroke-width="2"/>
+  <path d="M12 23h6l4-10 6 20 4-10h7" fill="none" stroke="#24c781" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#edf3fb">WALLBOARD</text>
+</svg>

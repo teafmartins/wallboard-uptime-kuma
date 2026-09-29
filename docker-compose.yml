@@ -1,0 +1,20 @@
+services:
+  kuma-wallboard:
+    build: .
+    container_name: kuma-wallboard
+    restart: unless-stopped
+    ports:
+      - "${WALLBOARD_PORT:-3002}:8080"
+    env_file:
+      - .env
+    environment:
+      # Inside the container the service always listens on 8080.
+      # Outside Docker, WALLBOARD_PORT is used directly.
+      PORT: "8080"
+      RUNNING_IN_DOCKER: "1"
+      DASHBOARD_CONFIG: /app/config/dashboard.json
+      ASSETS_DIR: /app/assets
+      WEB_DIST: /app/web/dist
+    volumes:
+      - ./config:/app/config
+      - ./assets:/app/assets:ro
