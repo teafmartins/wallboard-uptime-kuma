@@ -1,4 +1,4 @@
-# Kuma Wallboard v0.1
+# Uptime-Kuma Wallboard v0.1
 
 Kuma Wallboard is a lightweight, TV-friendly monitoring wallboard for **Uptime Kuma**. It is designed around an exception-first workflow: healthy services are represented by compact badges, while failed monitors receive the visual space, timeline and audio attention they need.
 
