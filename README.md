@@ -7,6 +7,8 @@ The project can run either with **Docker** or directly with **Node.js** on Windo
 > Version: **0.1.0**  
 > The version is intentionally kept at 0.1.0 while the current feature set is being refined.
 
+![Screenshot](docs/screenshot.png)
+
 ## Main features
 
 - Real-time connection to Uptime Kuma through Socket.IO.
